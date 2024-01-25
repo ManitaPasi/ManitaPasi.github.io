@@ -10,7 +10,23 @@
 	<title>Manita Pasi | Portfolio</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
+	<style>
+        .image-container {
+            width: 100%;
+            padding-top: 75%; /* Adjust the padding to change the aspect ratio */
+            position: relative;
+            overflow: hidden; /* Ensures the image doesn’t overflow the container */
+        }
 
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Makes the image cover the entire container */
+        }
+    </style>
    <!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -429,137 +445,136 @@
    		<div class="col-twelve">
 
    			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+			<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/movie-stream.png" alt="Movie Streaming Website">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">Movie Streaming Website</h3>
-		     					    	 <span class="folio-types">
-		     					       	  Full Stack Web Development
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div> <!-- /folio-item -->
-
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/web-scraping.jpg" alt="URL Shortener">
-	               	<a href="#modal-02" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">URL Shortener</h3>
-		     					    	<span class="folio-types">
-		     					       	  Web Design
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> 
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/dungeon.png" alt="Dungeon Game">
-							<a href="#modal-03" class="overlay">              		                  
-							  <div class="folio-item-table">
-								  <div class="folio-item-cell">
-									  <h3 class="folio-title">Dungeon Game</h3>	     					    
-											  <span class="folio-types">
-												   Web Design
-											</span>		     		
-										 </div> 	                      	
-							  </div>                    
-						   </a>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<div class="image-container">
+							<img src="cursive.png" alt="CursiveCodecraft">
 						</div>
-						 </div> <!-- /folio-item -->
+						<a href="#modal-01" class="overlay">
+							<div class="folio-item-table">
+								<div class="folio-item-cell">
+									<h3 class="folio-title">Cursive Codecraft</h3>
+									<span class="folio-types">
+                            Machine Learning
+                        </span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 
-	            <!--<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
-	                  <a href="#modal-03" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Clouds</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Design
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div>--> <!-- /folio-item -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<div class="image-container">
+							<img src="cinema.png" alt="cinema">
+						</div>
+						<a href="#modal-02" class="overlay">
+							<div class="folio-item-table">
+								<div class="folio-item-cell">
+									<h3 class="folio-title">Scripted Cinema</h3>
+									<span class="folio-types">
+                            Data Analysis
+                        </span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 
-	            <!--<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
-	                  <a href="#modal-04" class="overlay">                  	                 
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Beetle</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Branding
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div>--> <!-- /folio-item -->     
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<div class="image-container">
+							<img src="covid.png" alt="Covid">
+						</div>
+						<a href="#modal-03" class="overlay">
+							<div class="folio-item-table">
+								<div class="folio-item-cell">
+									<h3 class="folio-title">Pandemic Portfolio Pursuit</h3>
+									<span class="folio-types">
+                            Data Analysis
+                        </span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 
-	        		<!--<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
-	                  <a href="#modal-05" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Development
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div>--> <!-- /folio-item -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<div class="image-container">
+							<img src="crime.png" alt="Crime">
+						</div>
+						<a href="#modal-04" class="overlay">
+							<div class="folio-item-table">
+								<div class="folio-item-cell">
+									<h3 class="folio-title">Crime Data Analysis</h3>
+									<span class="folio-types">
+                            Data Analysis
+                        </span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 
-	            <!--<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/salad.jpg" alt="Salad">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Salad</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Branding
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> --> <!-- /folio-item -->   
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<div class="image-container">
+							<img src="house.png" alt="Price">
+						</div>
+						<a href="#modal-05" class="overlay">
+							<div class="folio-item-table">
+								<div class="folio-item-cell">
+									<h3 class="folio-title">Real Estate Price Prediction</h3>
+									<span class="folio-types">
+                            Machine Learning
+                        </span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<div class="image-container">
+							<img src="book.png" alt="Book">
+						</div>
+						<a href="#modal-06" class="overlay">
+							<div class="folio-item-table">
+								<div class="folio-item-cell">
+									<h3 class="folio-title">Book Recommendation System</h3>
+									<span class="folio-types">
+                            Data Science
+                        </span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
 
 	            <!-- modal popups - begin
 	            ============================================================= -->
 	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/binge-it.png" alt="" />
+				     		<img src="cursive.png" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>BingeIt</h4>
-					      <p>A Fullstack Responsive Movie Website 2023
-						  </p>
+					      <h4>Cursive CodeCraft</h4>
+					      <p>
+							  Transform the intricate art of handwritten texts into digital intelligence with our advanced TensorFlow-based model, bridging the gap between analog expressions and digital comprehension seamlessly.						  </p>
 
-					      <div class="categories">Web Development</div>
+					      <div class="categories">Machine Learning</div>
 					   </div>
 
 			         <div class="link-box">
-			            <a href="https://github.com/manjotmb20/bingeIt-client">Details</a>
+			            <a href="https://github.com/ManitaPasi/Cursive-Codecraft.git">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -568,18 +583,19 @@
 				   <div id="modal-02" class="popup-modal slider mfp-hide">
 
 					   <div class="media">
-						   <img src="images/portfolio/modals/web-scraping.jpg" alt="" />
+						   <img src="cinema.png" alt="" />
 					   </div>
 
 					   <div class="description-box">
-					      <h4>URL Shortener</h4>
-					      <p>A URL shortener web application using Python and Flask framework.</p>
-
-					      <div class="categories">Web Design</div>			               
+					      <h4>Scripted Cinema</h4>
+					      <p>
+							  Step into the cinematic universe with our Python-powered analysis, unveiling hidden patterns and insights that weave the intricate tapestry of film artistry and audience engagement.
+						  </p>
+					      <div class="categories">Data Analysis</div>
 					   </div>
 
 			         <div class="link-box">
-			            <a href="https://github.com/manjotmb20/fullstack-mern-movie-2022">Details</a>
+			            <a href="https://github.com/ManitaPasi/ScriptedCinema-Python-and-Movie-Patterns.git">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 						<!-- <iframe width="420" height="345" -->
 							 
@@ -591,25 +607,105 @@
 				   <div id="modal-03" class="popup-modal slider mfp-hide">	
 
 					<div class="media">
-					  <iframe width="560" height="315" src="https://www.youtube.com/embed/hX8ib1nZ1p0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				   </div>      	
+						<img src="covid.png" alt="" />
+					</div>
 
 				 <div class="description-box">
-					<h4>Dungeon GUI Game</h4>		      
-					<p>An maze game with treasures, arrows and monsters</p>
-
-					<div class="categories">Web Design</div>			               
+					<h4>Pandemic Portfolio Pursuit
+					</h4>
+					<p>
+						Embark on a tailored journey through the intricate investment landscape of the COVID-19 era, armed with insights and strategies to navigate economic uncertainties and discover promising opportunities.
+					</p>
+					<div class="categories">Data Analysis</div>
 				 </div>
 
 			   <div class="link-box">
-				  <a href="https://github.com/manjotmb20/Dungeon-Game/tree/main">Details</a>
+				  <a href="https://github.com/ManitaPasi/Pandemic-Portfolio-Pursuit.git">Details</a>
 					<a href="#" class="popup-modal-dismiss">Close</a>
 				  <!-- <iframe width="420" height="345" -->
 					   
 			   </div>		      
 			  
 			  
-			 </div> <!-- /modal-02 -->
+				 </div>
+						<div id="modal-04" class="popup-modal slider mfp-hide">
+
+							<div class="media">
+								<img src="crime.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Crime Data Analysis</h4>
+								<p>
+									Navigating the intricate layers of public crime data, our analysis illuminates crime hotspots, unveils underlying trends, and deciphers the intertwining threads of crime and socio-economic factors for enhanced safety and awareness.
+								</p>
+								<div class="categories">Data Analysis</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/ManitaPasi/Crime-Data-Analysis-.git">Details</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+								<!-- <iframe width="420" height="345" -->
+
+							</div>
+
+
+						</div>
+
+
+						<div id="modal-05" class="popup-modal slider mfp-hide">
+
+							<div class="media">
+								<img src="house.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Real Estate Price Prediction</h4>
+								<p>
+									Unlock the future of property investment with our Machine Learning model, engineered to accurately forecast real estate prices, turning complex property features into actionable insights.
+								</p>
+								<div class="categories">Machine Learning</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/ManitaPasi/Real-Estate-Price-Prediction.git">Details</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+								<!-- <iframe width="420" height="345" -->
+
+							</div>
+
+
+						</div>
+
+
+
+						<div id="modal-06" class="popup-modal slider mfp-hide">
+
+							<div class="media">
+								<img src="book.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Book Recommendation System
+
+								</h4>
+								<p>Unleashing the power of data science, our book recommendation system elegantly navigates through the vast literary landscape, promising personalized selections for every avid reader.
+
+								</p>
+
+								<div class="categories">Data Science</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/ManitaPasi/Book-Recommendation-System.git">Details</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+								<!-- <iframe width="420" height="345" -->
+
+							</div>
+
+
+						</div>
+
 
 				 <!--  <div id="modal-03" class="popup-modal slider mfp-hide">	
 
@@ -779,7 +875,7 @@
 
    <footer>
      	<div class="row">
-
+<!--
      		<div class="col-six tab-full pull-right social">
 
      			<ul class="footer-social">        
@@ -790,7 +886,9 @@
 			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 			   </ul> 
 	      		
-	      </div>
+	      </div> -->
+
+
 
       <!--	<div class="col-eight tab-full">
 	      	<div class="copyright">
